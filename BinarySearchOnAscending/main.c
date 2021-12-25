@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
     int c, baslangic, son, orta ,n ,aranan_deger, dizi[100];
 
     printf("\n Dizinin eleman sayisini giriniz: ");
