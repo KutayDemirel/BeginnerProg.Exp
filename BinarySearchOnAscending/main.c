@@ -3,13 +3,13 @@
 
 int main()
 {
-    int c, baslangic, son, orta ,n ,aranan_deger, dizi[100];
+        int c, baslangic, son ,orta ,n ,aranan_deger, dizi[100];
 
     printf("\n Dizinin eleman sayisini giriniz: ");
     scanf("%d",&n);
 
     for(c=0;c<n;c++){
-        printf("\n Dizinin %d. elemanýný giriniz", c);
+        printf("\n Dizinin %d. elemanini giriniz", c);
         scanf("%d", &dizi[c]);
     }
     printf("\n Aranacak degeri giriniz: ");
@@ -23,7 +23,8 @@ int main()
         if (dizi[orta]<aranan_deger)
             baslangic = orta + 1;
         else if (dizi[orta] == aranan_deger){
-            printf("\n Aranan < %d > degeri dizinin %d. elemaný olarak bulundu. \n", aranan_deger, orta);
+            printf("\n Aranan < %d > degeri dizinin %d. elemani olarak bulundu. \n", aranan_deger, orta);
+            break;
         }
         else
             son = orta - 1 ;
