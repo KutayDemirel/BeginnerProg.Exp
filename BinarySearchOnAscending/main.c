@@ -28,7 +28,7 @@ int main()
         }
         else
             son = orta - 1 ;
-        //bundann sonraki kot while de else de deðil
+        //bundan sonraki kod while da, else de degil
         orta = (baslangic + son)/2;
     }
     if(baslangic>son)
