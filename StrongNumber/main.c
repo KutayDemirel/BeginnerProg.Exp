@@ -33,3 +33,4 @@ int main()
         printf("\n%d is not Strong number.\n", originalNum);
   return 0;
 }
+
