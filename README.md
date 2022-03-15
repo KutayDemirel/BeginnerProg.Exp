@@ -1,1 +1,4 @@
-Codes which i have learned during process
+# C examples
+---
+- Application of Algorithms
+- Designing applications 
